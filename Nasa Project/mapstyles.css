@@ -1,0 +1,43 @@
+#content {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 800px;
+}
+#map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#coordinates {
+    margin: 20px 0;
+    text-align: center;
+}
+#map {
+    width: 90%;
+    height: 500px;
+    max-width: 800px;
+    border: 2px solid #ccc;
+    margin: auto;
+}
+input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}

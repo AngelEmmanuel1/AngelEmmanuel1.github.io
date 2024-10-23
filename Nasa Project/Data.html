@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa Data Science</title>
+ 	<link rel="stylesheet" type="text/css" href="Styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+     <link rel="icon" href="Pictures/WebTab-Logo.png">
+    
+         
+ 
+        
+</head>
+<header> 
+    <a href="home.html" class="logo-container">
+        <img class="logo1" src="Pictures/earthdata-oaos-logo.png">
+        <img class="logo-hover" src="Pictures/earthdata-oaos-logo-hover.png">
+    </a>
+<nav>
+   
+    <a href="home.html">Home</a>
+    <a href="CommercialData.html">Commercial Data</a>   
+    <a href="Location Page.html">Earth-View</a>
+    <a href="Data.html">Data Resources</a>
+</div>
+</nav> 
+
+</header>
+
+<body>
+
+    <h1 style="text-align: center; margin-top: 20px;">Data Resources</h1>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="card-header">
+                <h2 style="color: #fff;
+                border-bottom: 2px solid #fff;
+                padding-bottom: 10px;
+                margin-bottom: 20px;" >Commercial Tech Data Sets</h2>
+            </div>
+            <div class="card-body">
+                <p>Find data on Commercial Tech</p>
+                <a href="Images page.html" class="button">Explore</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2 style="color: #fff;
+                border-bottom: 2px solid #fff;
+                padding-bottom: 10px;
+                margin-bottom: 20px;">NASA Small Satellite Data </h2>
+            </div>
+            <div class="card-body">
+                <p>Search, discover, and access NASA acquired commercial small satellite data.</p>
+                <a href="https://csdap.earthdata.nasa.gov/" class="button">Discover</a>
+            </div>
+            
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2 style="color: #fff;
+                border-bottom: 2px solid #fff;
+                padding-bottom: 10px;
+                margin-bottom: 20px;">MAXAR Satellite Imagery</h2>
+            </div>
+            <div class="card-body">
+                <p>MAXAR Satellite Imagery and Multi-Int Collection.</p>
+                <a href="https://www.maxar.com/products/satellite-imagery" class="button">Find more</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DEAP Institute. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdownBtn = document.querySelector('.dropdown-btn');
+            var dropdownContent = document.querySelector('.dropdown-content');
+    
+            dropdownBtn.addEventListener('click', function() {
+                dropdownContent.classList.toggle('show');
+            });
+    
+            window.addEventListener('click', function(event) {
+                if (!event.target.matches('.dropdown-btn')) {
+                    if (dropdownContent.classList.contains('show')) {
+                        dropdownContent.classList.remove('show');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
